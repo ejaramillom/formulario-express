@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title  Formulario de registro
+  body
+  form( action = "/register", method = "post" )
+    div
+      label( for = "nombre" ) Nombre:
+      input( type= "text" name= "nombre" )
+    br
+    div
+      label( for = "email" ) Email:
+      input( type= "text" name= "email" )
+    br
+    div
+      label( for = "password" ) Password:
+      input( type= "text" name= "password" )
+    br
+    button( type = "submit" ) Registrarse!
